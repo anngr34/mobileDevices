@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageTaker</string>
+    <string name="take_a_shot">Take a shot</string>
+    <string name="send_photo">Send photo</string>
+    <string name="photo">photo</string>
+    <string name="imagePreview">previewImage</string>
+</resources>
