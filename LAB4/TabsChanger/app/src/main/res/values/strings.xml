@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabsChanger</string>
+    <string name="island">Island</string>
+    <string name="island_text">Drawing: Island love</string>
+    <string name="mountain">Mountain</string>
+    <string name="mountain_text">Drawing: Mountains doubles</string>
+    <string name="house">House</string>
+    <string name="house_text">Drawing: House on the field</string>
+</resources>
