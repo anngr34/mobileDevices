@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_island"
+        android:enabled="true"
+        android:icon="@drawable/ic_island"
+        android:title="@string/island" />
+    <item
+        android:id="@+id/item_house"
+        android:enabled="true"
+        android:icon="@drawable/ic_house"
+        android:title="@string/house" />
+    <item
+        android:id="@+id/item_mountain"
+        android:enabled="true"
+        android:icon="@drawable/ic_mountain"
+        android:title="@string/mountain" />
+
+</menu>
