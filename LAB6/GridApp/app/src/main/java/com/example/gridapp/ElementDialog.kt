@@ -17,7 +17,7 @@ class ElementDialog : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return AlertDialog.Builder(requireActivity())
             .setTitle("Number")
-            .setMessage("You choose number: " + valueInElement.toString())
+            .setMessage("You choose number: $valueInElement")
             .setPositiveButton("Ok", null)
             .create()
     }

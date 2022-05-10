@@ -15,6 +15,11 @@ class MainActivity : AppCompatActivity() {
     private val listOfElements: MutableList<Element> = mutableListOf()
     private lateinit var adapter: ElementsRecyclerAdapter
 
+    override fun onStart() {
+        super.onStart()
+        adapter.submitList(listOfElements.toList())
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -28,19 +33,14 @@ class MainActivity : AppCompatActivity() {
 
         binding.listElements.adapter = adapter
         binding.listElements.layoutManager = GridLayoutManager(this, 4)
-        adapter.submitList(null)
         for (i in 1..32) {
             val value = Random.nextInt(1, 99)
             val color =
                 Color.argb(255, Random.nextInt(256), Random.nextInt(256), Random.nextInt(256));
+
             listOfElements.add(Element(value, color))
         }
         adapter.submitList(listOfElements.toList())
 
-    }
-
-    override fun onStart() {
-        super.onStart()
-        adapter.submitList(listOfElements.toList())
     }
 }
