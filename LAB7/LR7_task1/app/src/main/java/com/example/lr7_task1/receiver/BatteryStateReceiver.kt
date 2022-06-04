@@ -1,4 +1,4 @@
-package com.example.lr7_task1.receivers
+package com.example.lr7_task1.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
