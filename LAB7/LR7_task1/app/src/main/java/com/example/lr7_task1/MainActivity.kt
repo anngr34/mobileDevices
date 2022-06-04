@@ -7,9 +7,9 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lr7_task1.receivers.AirplaneModeStateReceiver
-import com.example.lr7_task1.receivers.CameraButtonClickReceiver
-import com.example.lr7_task1.receivers.BatteryStateReceiver
+import com.example.lr7_task1.receiver.AirplaneModeStateReceiver
+import com.example.lr7_task1.receiver.CameraButtonClickReceiver
+import com.example.lr7_task1.receiver.BatteryStateReceiver
 
 
 class MainActivity : AppCompatActivity() {
